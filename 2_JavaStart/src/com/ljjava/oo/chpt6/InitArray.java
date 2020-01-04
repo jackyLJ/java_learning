@@ -16,5 +16,11 @@ public class InitArray {
         a[4]=5;
 
         System.out.println(a.length);
+
+        System.out.println("a[4]="+a[4]);
+
+        a[4] = 100;
+
+        System.out.println("a[4] after update"+a[4]);
     }
 }
